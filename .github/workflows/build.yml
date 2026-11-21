@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip -q autoclicker_project.zip -d proj
+      - run: unzip -q "autoclicker_project (1).zip" -d proj
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
